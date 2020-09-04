@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 3_StandardSpecPBR
+  m_Shader: {fileID: 4800000, guid: 543254caf6d73014d925549caf644979, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: 44029943b92b2ac438caede6631f24dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _bumpTex:
+        m_Texture: {fileID: 2800000, guid: d4b6beda93b07b846ac61e3e86417c55, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _diffuseTex:
+        m_Texture: {fileID: 2800000, guid: d0bff799cdab76b46811908f7ac3810a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissiveTex:
+        m_Texture: {fileID: 2800000, guid: aa9919b2c97e77a4b9378614fa82b3c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: 8524e5589b023774a8e203c1ea7844b2, type: 2}
+        m_Scale: {x: 0, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuseTex:
+        m_Texture: {fileID: 2800000, guid: d0bff799cdab76b46811908f7ac3810a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myEmissiveTex:
+        m_Texture: {fileID: 2800000, guid: aa9919b2c97e77a4b9378614fa82b3c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myTex:
+        m_Texture: {fileID: 2800000, guid: 840fececb1c5b664eb28f3550a18e899, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _normalTex:
+        m_Texture: {fileID: 2800000, guid: d4b6beda93b07b846ac61e3e86417c55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _stripeTex1:
+        m_Texture: {fileID: 2800000, guid: 840fececb1c5b664eb28f3550a18e899, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _stripeTex2:
+        m_Texture: {fileID: 2800000, guid: f9415879573210741b470c02dbf171df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Gloss: 0.77
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MySliderValue: 10
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _Spec: 0.1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _brightness: 0.2
+    - _cutoffSlider: 0.41
+    - _cutoffSlider2: 0.23
+    - _myFloat: 0.5
+    - _myRange: 0.38
+    - _mySlider: 0.3
+    - _powerSlider: 0.5
+    - _ratioSlider: 0.26
+    - _scaleSlider: 1.08
+    - _widthSlider: 15
+    m_Colors:
+    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9339623, g: 0.8912743, b: 0.72690463, a: 1}
+    - _Color1: {r: 0.018066913, g: 0.01886791, b: 0.01886791, a: 0}
+    - _Color2: {r: 0.5019608, g: 0.056134604, b: 0, a: 0}
+    - _Color3: {r: 0.5019608, g: 0.4909366, b: 0, a: 0}
+    - _Colour: {r: 0.18356177, g: 0.5188679, b: 0.3648908, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.32156864, g: 0.053800307, b: 0.8773585, a: 0}
+    - _RimColor2: {r: 0.990566, g: 0.25873944, b: 0.042052314, a: 0}
+    - _SpecColor: {r: 0.5529412, g: 0.83137256, b: 0.6283103, a: 1}
+    - _fillColor: {r: 0.6981132, g: 0.67753166, b: 0.08232466, a: 0}
+    - _myColour: {r: 0.745283, g: 0.16522783, b: 0.19482039, a: 1}
+    - _myEmission: {r: 1, g: 0.54365426, b: 0, a: 1}
+    - _myNormal: {r: 0.7735849, g: 0.7735849, b: 0.71155214, a: 1}
+    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
